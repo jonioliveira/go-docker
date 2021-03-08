@@ -3,6 +3,6 @@ services:
   go-docker-image:
     build: ./
     ports:
-      - "80:80"
+      - "8081:80"
     volumes:
       - ./:/opt/app
